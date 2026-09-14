@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Two Theses, Visualised</title>
+  <meta name="description" content="An interactive portfolio project tracing labour, value and environmental costs through global supply chains." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="#top">Two Theses, Visualised</a>
+    <div class="navlinks">
+      <a href="#ev-chain">EV chain</a>
+      <a href="#earlier">Earlier dissertation</a>
+      <a href="#evolution">Evolution</a>
+      <a href="#ai">Built with AI</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">RESEARCH × DATA × AI</p>
+      <h1>Tracing inequality through global supply chains.</h1>
+      <p class="lede">
+        Two dissertation projects transformed into an interactive research story:
+        from externalised labour in the Global South to the economic and ecological
+        politics of the electric-vehicle transition.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#ev-chain">Follow the nickel</a>
+        <a class="button ghost" href="#evolution">See the research evolution</a>
+      </div>
+    </section>
+
+    <section class="intro-grid">
+      <article class="card">
+        <p class="kicker">EARLIER DISSERTATION</p>
+        <h2>Externalised production & labour</h2>
+        <p>
+          Examines how outsourcing affects workers in Global South supply chains,
+          using cobalt mining in the DRC and Nike-linked garment manufacturing in Vietnam.
+        </p>
+        <div class="tags">
+          <span>Externalisation</span><span>Labour</span><span>Unequal exchange</span>
+        </div>
+      </article>
+
+      <article class="card feature">
+        <p class="kicker">LATER DISSERTATION</p>
+        <h2>Electric vehicles & unequal exchange</h2>
+        <p>
+          Follows nickel through Volkswagen's EV value chain to compare labour,
+          environmental and value-capture dynamics across production nodes.
+        </p>
+        <div class="tags">
+          <span>EVs</span><span>Political economy</span><span>Just Transition</span>
+        </div>
+      </article>
+    </section>
+
+    <section id="ev-chain" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">FLAGSHIP VISUALISATION</p>
+        <h2>Follow the nickel</h2>
+        <p>
+          Click each production node to see how the dissertation characterises the
+          labour, environmental and accumulation dynamics at that stage.
+        </p>
+      </div>
+
+      <div class="chain-layout">
+        <div class="chain" id="chain"></div>
+
+        <aside class="detail-panel" id="detailPanel" aria-live="polite">
+          <p class="kicker" id="detailStage">01 — EXTRACTION & REFINING</p>
+          <h3 id="detailTitle">Sulawesi, Indonesia</h3>
+          <p id="detailText"></p>
+
+          <div class="metric">
+            <div><span>Labour conditions</span><strong id="labourLabel"></strong></div>
+            <div class="track"><div class="fill" id="labourBar"></div></div>
+          </div>
+          <div class="metric">
+            <div><span>Environmental burden</span><strong id="environmentLabel"></strong></div>
+            <div class="track"><div class="fill" id="environmentBar"></div></div>
+          </div>
+          <div class="metric">
+            <div><span>Value capture</span><strong id="valueLabel"></strong></div>
+            <div class="track"><div class="fill" id="valueBar"></div></div>
+          </div>
+
+          <p class="note">
+            These indicators are a qualitative visual synthesis of the dissertation,
+            not a quantitative index.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section contrast">
+      <div class="section-heading">
+        <p class="eyebrow">THE CORE CONTRAST</p>
+        <h2>A green transition can distribute its costs unevenly.</h2>
+      </div>
+      <div class="contrast-grid">
+        <div>
+          <span class="bigword">UPSTREAM</span>
+          <p>Extraction and refining are associated with heavier labour and ecological burdens and weaker local value capture.</p>
+        </div>
+        <div class="arrow">→</div>
+        <div>
+          <span class="bigword">DOWNSTREAM</span>
+          <p>Later European production stages capture more of the transition's economic and ecological benefits.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="earlier" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">DISSERTATION 1</p>
+        <h2>Externalisation and labour exploitation</h2>
+        <p>
+          The earlier project asks what happens to workers when multinational firms
+          outsource production while retaining control over higher-value activities.
+        </p>
+      </div>
+
+      <div class="case-grid">
+        <article class="case-card">
+          <p class="kicker">CASE 01</p>
+          <h3>DRC cobalt</h3>
+          <p>
+            A resource-extraction case focused on labour conditions, value-chain power,
+            remuneration and the historical structures surrounding cobalt production.
+          </p>
+          <ul>
+            <li>Resource extraction</li>
+            <li>Labour-market structure</li>
+            <li>Unequal exchange</li>
+          </ul>
+        </article>
+        <article class="case-card">
+          <p class="kicker">CASE 02</p>
+          <h3>Nike-linked manufacturing in Vietnam</h3>
+          <p>
+            A manufacturing case examining wages, working hours, gendered labour,
+            union suppression and supplier dependence.
+          </p>
+          <ul>
+            <li>Supplier competition</li>
+            <li>Cost pressure</li>
+            <li>Lead-firm power</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="flow">
+        <div class="flow-box">Lead firm power</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box">Supplier cost pressure</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box">Pressure on labour</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box">Value captured downstream</div>
+      </div>
+    </section>
+
+    <section id="evolution" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">RESEARCH EVOLUTION</p>
+        <h2>How the research developed</h2>
+      </div>
+
+      <div class="evolution">
+        <div class="evo-col">
+          <p class="kicker">EARLIER PROJECT</p>
+          <h3>Who bears the labour costs of outsourcing?</h3>
+          <p>Two case studies; emphasis on externalisation, workers and multinational–supplier power.</p>
+        </div>
+        <div class="evo-middle">→</div>
+        <div class="evo-col">
+          <p class="kicker">LATER PROJECT</p>
+          <h3>How are labour, ecological costs and value distributed across an entire chain?</h3>
+          <p>A follow-the-thing analysis spanning Indonesia, China, Germany and Spain.</p>
+        </div>
+      </div>
+
+      <div class="shift-grid">
+        <div><span>Labour</span><strong>→ Labour + ecology + capital</strong></div>
+        <div><span>Two cases</span><strong>→ Whole-chain analysis</strong></div>
+        <div><span>Externalisation</span><strong>→ Unequal & ecological unequal exchange</strong></div>
+        <div><span>Firm/supplier relations</span><strong>→ International distribution of costs and benefits</strong></div>
+      </div>
+    </section>
+
+    <section id="ai" class="section ai-section">
+      <div class="section-heading">
+        <p class="eyebrow">PORTFOLIO EVIDENCE</p>
+        <h2>Built with AI, verified by a human.</h2>
+        <p>
+          This project began without a software-development background. AI was used as
+          a development partner, while research interpretation, validation and design
+          decisions remained human-led.
+        </p>
+      </div>
+
+      <div class="process">
+        <div><b>1</b><span>Dissertation PDFs</span></div>
+        <div><b>2</b><span>AI-assisted extraction</span></div>
+        <div><b>3</b><span>Structured research data</span></div>
+        <div><b>4</b><span>Visual prototypes</span></div>
+        <div><b>5</b><span>Human verification</span></div>
+        <div><b>6</b><span>AI-assisted coding & debugging</span></div>
+        <div><b>7</b><span>GitHub Pages deployment</span></div>
+      </div>
+
+      <div class="principles">
+        <h3>What this demonstrates</h3>
+        <p>
+          AI prompting · information extraction · structured data · interface design ·
+          iterative development · debugging · verification · research communication
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Two Theses, Visualised — portfolio prototype</p>
+    <p>Research claims should be read alongside the original dissertations and cited sources.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
