@@ -1,50 +1,30 @@
-# Two Theses, Visualised
+# Thesis Visualisation — Version 2
 
-A beginner-friendly static portfolio site transforming two dissertations into an interactive research story.
+A multi-page static research website designed for GitHub Pages.
 
-## What is included
+## Main sections
+- Home
+- Dissertation 1: theory, method, DRC case, Vietnam case, conclusion
+- Dissertation 2: theory, method, interactive route, four production nodes, comparison, conclusion
+- Research evolution
+- Built with AI
 
-- `index.html` — all page content
-- `style.css` — visual design
-- `script.js` — the interactive EV supply-chain visualisation
-- `README.md` — these instructions
+## Technology
+- Plain HTML
+- Shared CSS
+- Vanilla JavaScript
+- Leaflet maps
+- OpenStreetMap tiles
+- No build step
+- No database
+- GitHub Pages compatible
 
-## How to preview it
+## Important evidence rule
+The website paraphrases dissertation claims and attaches selected claims to dissertation page numbers and cited sources.
+It deliberately avoids turning qualitative comparisons into invented quantitative indices.
 
-The simplest method is to open `index.html` in a browser.
+## Publishing
+Upload the complete contents of this folder to the root of the GitHub repository and enable GitHub Pages from the `main` branch, `/ (root)`.
 
-## How to put it on GitHub Pages
-
-1. Create a new GitHub repository called `two-theses-visualised`.
-2. Upload these files into the repository.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose the `main` branch and `/ (root)`.
-6. Save.
-7. GitHub will provide the public website address.
-
-## Important methodology note
-
-The bars in the EV-chain visualisation are **not quantitative measurements**. They are a visual encoding of qualitative comparisons described in the dissertation. This is stated on the page and should remain explicit.
-
-## Good next improvements
-
-- Replace the simple chain with an actual geographic route/map.
-- Add citations/source popovers to each claim.
-- Add the DRC and Vietnam case-study evidence explorer.
-- Create a research-source dataset from both bibliographies.
-- Add a dedicated page documenting prompts, validation and debugging.
-- Add screenshots/commit history showing the iterative AI-assisted build process.
-
-## Portfolio framing
-
-Do not present this as evidence that you are a software engineer. Present it as evidence that you can:
-
-- scope a digital project;
-- use AI to extract and structure information;
-- translate complex research into an interface;
-- direct AI-generated code;
-- test and correct outputs;
-- validate AI-generated content against source material;
-- learn unfamiliar tools quickly.
-
+## If replacing Version 1
+You can leave the old `style.css` and `script.js` files in the repository; this version uses `assets/style.css` and `assets/app.js`, so the old files are ignored.

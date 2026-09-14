@@ -1,0 +1,285 @@
+{
+  "d1": {
+    "title": "Externalised Production & Labour",
+    "subtitle": "How outsourcing reshapes labour, power and value in Global South supply chains",
+    "research_question": "How does externalisation affect workers in Global South supply chains, and to what extent does it facilitate labour exploitation?",
+    "method": [
+      "Critical realist paradigm",
+      "Deductive approach",
+      "Explanatory case-study design",
+      "Secondary qualitative data",
+      "Document analysis + descriptive coding",
+      "Triangulation across NGO, academic and government sources"
+    ],
+    "cases": {
+      "drc": {
+        "title": "Cobalt mining in the DRC",
+        "location": "Southern Katanga, Democratic Republic of the Congo",
+        "summary": "A resource-extraction case tracing labour conditions, subcontracting, bargaining power and value-chain dependence in a globally strategic mineral sector.",
+        "evidence": [
+          {
+            "value": "500k–1m",
+            "label": "people estimated to work in artisanal-scale cobalt mining",
+            "page": "26",
+            "source": "FIGNR (2019), as cited in the dissertation"
+          },
+          {
+            "value": "12–20%",
+            "label": "share of DRC cobalt attributed to artisanal-scale mining",
+            "page": "26",
+            "source": "RAID (2021), as cited in the dissertation"
+          },
+          {
+            "value": "63%",
+            "label": "of miners questioned in one USDoL report had been injured or made sick by work",
+            "page": "29",
+            "source": "USDoL (2023), as cited in the dissertation"
+          },
+          {
+            "value": "40,000",
+            "label": "children estimated to be working in Southern DRC mines in the cited evidence",
+            "page": "29",
+            "source": "Amnesty (2016), as cited in the dissertation"
+          },
+          {
+            "value": "57%",
+            "label": "of LSM workers questioned by RAID worked through subcontracts",
+            "page": "29",
+            "source": "RAID (2021), as cited in the dissertation"
+          }
+        ]
+      },
+      "vietnam": {
+        "title": "Nike-linked manufacturing in Vietnam",
+        "location": "Vietnam",
+        "summary": "A manufacturing case examining wages, working time, gendered labour, union suppression and the bargaining asymmetry between lead firms and supplier factories.",
+        "evidence": [
+          {
+            "value": "$40",
+            "label": "average monthly salary reported at Tae Kwang Vina in the earlier evidence",
+            "page": "35–36",
+            "source": "Bhatnagar et al. / VLW evidence, as cited in the dissertation"
+          },
+          {
+            "value": "$67",
+            "label": "average monthly salary reported at Hansae in the later evidence",
+            "page": "36",
+            "source": "WRC (2016), as cited in the dissertation"
+          },
+          {
+            "value": "85%",
+            "label": "women's average wages relative to men's across Vietnamese garment manufacturing in one cited study",
+            "page": "36",
+            "source": "Kapoor & Sreedharan (2018), as cited in the dissertation"
+          },
+          {
+            "value": "35,000+",
+            "label": "Vietnamese jobs attributed to Nike in 1998 in the cited evidence",
+            "page": "37",
+            "source": "Bhatnagar et al. (2003), as cited in the dissertation"
+          },
+          {
+            "value": "4%",
+            "label": "share of Vietnam's exports attributed to Nike in 1998 in the cited evidence",
+            "page": "37",
+            "source": "Bhatnagar et al. (2003), as cited in the dissertation"
+          }
+        ]
+      }
+    }
+  },
+  "d2": {
+    "title": "Unequal Economic & Ecological Relations Across German-led EV Value Chains",
+    "subtitle": "Following nickel through Volkswagen's EV value chain",
+    "research_question": "How do relations of environmental expropriation, labour exploitation and capital accumulation vary across German-led electric vehicle value chains?",
+    "subquestion": "What do these relations tell us about Just Transition?",
+    "method": [
+      "Follow-the-Thing",
+      "Deductive approach",
+      "Marxist value theory",
+      "Unequal exchange",
+      "Ecological unequal exchange",
+      "Secondary document analysis + triangulation"
+    ],
+    "nodes": [
+      {
+        "slug": "indonesia",
+        "title": "Sulawesi, Indonesia",
+        "stage": "Extraction + HPAL refining",
+        "lat": -2.99,
+        "lng": 121.9,
+        "summary": "The most environmentally and labour-intensive upstream stage in the dissertation's comparison.",
+        "evidence": [
+          {
+            "value": "95%",
+            "label": "of Volkswagen's nickel described as being sourced from Indonesia",
+            "page": "22",
+            "source": "Geurts et al. (2025), as cited in the dissertation"
+          },
+          {
+            "value": "90,000",
+            "label": "workers employed across IMIP's tenant firms",
+            "page": "22",
+            "source": "Al-Ayubby (2025), as cited in the dissertation"
+          },
+          {
+            "value": "IDR 3m",
+            "label": "approximate average monthly wage reported at IMIP",
+            "page": "22",
+            "source": "Al-Ayubby (2025), as cited in the dissertation"
+          },
+          {
+            "value": "133 t",
+            "label": "toxic tailings described per tonne of nickel from HPAL processing",
+            "page": "22",
+            "source": "Emerman (2026), as cited in the dissertation"
+          },
+          {
+            "value": "21",
+            "label": "workers killed in a 2023 smelter explosion discussed in the dissertation",
+            "page": "22",
+            "source": "Asgani (2025), as cited in the dissertation"
+          }
+        ],
+        "themes": [
+          "Deforestation",
+          "Water contamination",
+          "Hazardous work",
+          "Low wages",
+          "Long hours",
+          "Land conflict",
+          "Value drain"
+        ]
+      },
+      {
+        "slug": "china",
+        "title": "Zhejiang, China",
+        "stage": "Chemical refining: sulfate → pCAM → CAM",
+        "lat": 29.15,
+        "lng": 120.1,
+        "summary": "A technologically complex midstream stage where Chinese firms capture disproportionate value through scale, capital intensity and vertical integration.",
+        "evidence": [
+          {
+            "value": "95%",
+            "label": "share of global pCAM production described as occurring in China",
+            "page": "25",
+            "source": "Nikkhah (2025), as cited in the dissertation"
+          },
+          {
+            "value": "90%",
+            "label": "share of global CAM manufacturing capacity described as held by China",
+            "page": "25",
+            "source": "IEA (2024), as cited in the dissertation"
+          },
+          {
+            "value": "120–140k RMB",
+            "label": "estimated annual wage range used for Huayou chemical-refining workers",
+            "page": "26",
+            "source": "Dissertation estimate using ERI and CEIC"
+          },
+          {
+            "value": "Higher OCC",
+            "label": "chemical refining is treated as more capital-intensive than upstream mining/HPAL",
+            "page": "26",
+            "source": "Dissertation synthesis of cited production literature"
+          }
+        ],
+        "themes": [
+          "Capital intensity",
+          "Industrial clusters",
+          "First-mover advantage",
+          "Environmental impacts",
+          "Midstream value capture"
+        ]
+      },
+      {
+        "slug": "germany",
+        "title": "Salzgitter, Germany",
+        "stage": "Battery-cell production",
+        "lat": 52.15,
+        "lng": 10.33,
+        "summary": "A highly capital-intensive, increasingly automated stage with stronger worker organisation and lower local ecological burden.",
+        "evidence": [
+          {
+            "value": "€2bn",
+            "label": "investment value described for the PowerCo gigafactory",
+            "page": "27",
+            "source": "Groß (2025), as cited in the dissertation"
+          },
+          {
+            "value": "69,000 m²",
+            "label": "approximate factory footprint",
+            "page": "27",
+            "source": "Groß (2025), as cited in the dissertation"
+          },
+          {
+            "value": "~2,000",
+            "label": "workers employed at the site",
+            "page": "27",
+            "source": "Boewe & Schulten (2025), as cited in the dissertation"
+          },
+          {
+            "value": "€4,580",
+            "label": "monthly starting salary described for engineers",
+            "page": "28",
+            "source": "IG Metall (2025), as cited in the dissertation"
+          },
+          {
+            "value": "Renewables",
+            "label": "the dissertation describes the gigafactory as powered exclusively from renewable sources",
+            "page": "28",
+            "source": "Ozsevim / Groß & Berger / Williams, as cited"
+          }
+        ],
+        "themes": [
+          "Automation",
+          "Union power",
+          "Higher wages",
+          "Renewable electricity",
+          "High capital intensity"
+        ]
+      },
+      {
+        "slug": "spain",
+        "title": "Martorell, Spain",
+        "stage": "Cell-to-pack + final assembly",
+        "lat": 41.47,
+        "lng": 1.93,
+        "summary": "A downstream European assembly node used to examine intra-European wage, productivity and value-capture differences.",
+        "evidence": [
+          {
+            "value": "~10,000",
+            "label": "employees used in the dissertation's fixed-capital-per-worker estimate",
+            "page": "33",
+            "source": "SEAT (2026), as cited in the dissertation"
+          },
+          {
+            "value": "~€300k",
+            "label": "estimated fixed capital per worker at Martorell",
+            "page": "33",
+            "source": "Dissertation estimate"
+          },
+          {
+            "value": "≈ 1/2",
+            "label": "Martorell manufacturing wages relative to Salzgitter in the dissertation's comparison",
+            "page": "33",
+            "source": "BOE / IG Metall evidence, as cited"
+          },
+          {
+            "value": "Renewables",
+            "label": "Spanish manufacturing is described as using fully renewable energy supplies",
+            "page": "35",
+            "source": "SEAT (2026), as cited in the dissertation"
+          }
+        ],
+        "themes": [
+          "Final assembly",
+          "Lower labour costs than Germany",
+          "Automation",
+          "Vertical integration",
+          "Intra-European value transfer"
+        ]
+      }
+    ]
+  }
+}

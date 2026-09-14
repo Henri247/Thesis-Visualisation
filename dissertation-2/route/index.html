@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D2 — Follow the nickel — Two Theses, Visualised</title>
+<meta name="description" content="Interactive research portfolio visualising two dissertation projects.">
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body data-root="../../" data-active="">
+<main class="page">
+
+<section class="hero compact">
+<div class="breadcrumb"><a href="../../index.html">Home</a> / <a href="../index.html">Dissertation 2</a> / <span>Interactive route</span></div>
+<p class="eyebrow">CHAPTER 03 — INTERACTIVE MAP</p><h1 class="small">Follow the nickel.</h1><p class="lede">A geographic interface for the dissertation's central analytical move: compare what happens to labour, nature and value as nickel moves downstream.</p>
+</section>
+<section class="section" style="padding-top:20px">
+<div class="map-shell"><div id="evMap" style="height:100%"></div><div class="map-overlay"><p class="kicker">VW EV VALUE-CHAIN STRAND</p><h3>Indonesia → China → Germany → Spain</h3><p>Click any marker to open the node, or use the chapter list below.</p><div class="map-legend"><span>● production node</span><span>--- analytical route</span></div></div></div>
+</section>
+<section class="section"><div class="route-list"><a class="route-item" href="../indonesia/index.html"><span class="route-num">01</span><span><strong>Sulawesi, Indonesia</strong><small style="display:block;color:#6d706f">Extraction + HPAL refining</small></span><span>Explore →</span></a><a class="route-item" href="../china/index.html"><span class="route-num">02</span><span><strong>Zhejiang, China</strong><small style="display:block;color:#6d706f">Chemical refining: sulfate → pCAM → CAM</small></span><span>Explore →</span></a><a class="route-item" href="../germany/index.html"><span class="route-num">03</span><span><strong>Salzgitter, Germany</strong><small style="display:block;color:#6d706f">Battery-cell production</small></span><span>Explore →</span></a><a class="route-item" href="../spain/index.html"><span class="route-num">04</span><span><strong>Martorell, Spain</strong><small style="display:block;color:#6d706f">Cell-to-pack + final assembly</small></span><span>Explore →</span></a></div></section>
+<script>
+document.addEventListener("DOMContentLoaded",()=>initResearchMap({
+ id:"evMap",center:[25,70],zoom:3,route:true,fit:true,nodes:[{title:"Sulawesi, Indonesia",stage:"Extraction + HPAL refining",lat:-2.99,lng:121.9,href:"../indonesia/index.html"},{title:"Zhejiang, China",stage:"Chemical refining: sulfate \u2192 pCAM \u2192 CAM",lat:29.15,lng:120.1,href:"../china/index.html"},{title:"Salzgitter, Germany",stage:"Battery-cell production",lat:52.15,lng:10.33,href:"../germany/index.html"},{title:"Martorell, Spain",stage:"Cell-to-pack + final assembly",lat:41.47,lng:1.93,href:"../spain/index.html"}]
+}));
+</script>
+
+</main>
+<script src="../../assets/app.js"></script>
+<script src='../../assets/maps.js'></script>
+</body>
+</html>
